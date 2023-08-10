@@ -39,30 +39,30 @@ public class Testcase1 extends Base {
             ExtentTest test = reporter.createTest("Registeration Page", "Execution for registeration");
             e = new EventHandler();
             driver.get(prop.getProperty("url") + "/Register");
-            e.logger("Browser Navigated to the Register Page");
+            // e.logger("Browser Navigated to the Register Page");
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLICIT_WAIT_TIME));
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(PAGE_LOAD_TIME));
             Tricetis_Register register = PageFactory.initElements(driver, Tricetis_Register.class);
             register.gen_female();
-            e.logger("Female Button clicked in the Register Page");
+            // e.logger("Female Button clicked in the Register Page");
             register.FirstName("AAAAAA");
-            e.logger("First Name Entered in the Register Page");
+            // e.logger("First Name Entered in the Register Page");
             register.LastName("BBBBBB");
-            e.logger("Last Name Entered in the Register Page");
+            // e.logger("Last Name Entered in the Register Page");
             register.Email("test@demo.com");
-            e.logger("Email Entered in the Register Page");
+            // e.logger("Email Entered in the Register Page");
             register.Password("Test123$");
-            e.logger("Password Entered in the Register Page");
+            // e.logger("Password Entered in the Register Page");
             register.ConfirmPassword("Test123$");
-            e.logger("Confirm Password Entered in the Register Page");
+            // e.logger("Confirm Password Entered in the Register Page");
             Screenshot.getScreenShot("Register_Screenshot");
-            e.logger("Screenshot taken in the Register Page");
+            // e.logger("Screenshot taken in the Register Page");
             register.Register_Btn();
-            e.logger("Register Button Clicked");
+            // e.logger("Register Button Clicked");
             test.log(Status.PASS, "Registeration Success");
         } catch (Exception ex) {
             // Handle any exceptions here
-            e.logger("Exception occurred: " + ex.getMessage());
+            // e.logger("Exception occurred: " + ex.getMessage());
             // You can log or report the exception here
             // For now, just printing the stack trace
             ex.printStackTrace();
@@ -78,16 +78,16 @@ public class Testcase1 extends Base {
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(PAGE_LOAD_TIME));
             Tricentis_Login login = PageFactory.initElements(driver, Tricentis_Login.class);
             login.username(uid);
-            e.logger("username read from excel and entered in the field");
+            // e.logger("username read from excel and entered in the field");
             login.password(pwd);
-            e.logger("password read from excel and entered in the field");
+        // /e.logger("password read from excel and entered in the field");
             login.Login();
-            e.logger("Login Button Clicked");
+            // e.logger("Login Button Clicked");
             test.log(Status.PASS, "Login Success");
             Screenshot.getScreenShot("Login_Screenshot");
-            e.logger("Screenshot taken");
+            // e.logger("Screenshot taken");
         } catch (Exception ex) {
-            e.logger("Exception occurred: " + ex.getMessage());
+            // e.logger("Exception occurred: " + ex.getMessage());
             
             ex.printStackTrace();
         }
@@ -127,6 +127,6 @@ public class Testcase1 extends Base {
     public void afterMethod() {
         driver.quit();
         reporter.flush();
-        e.logger("Browser closed");
+        // e.logger("Browser closed");
     }
 }
