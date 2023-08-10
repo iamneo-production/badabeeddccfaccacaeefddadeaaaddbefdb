@@ -26,9 +26,10 @@ import pages.Tricetis_Register;
 import utils.EventHandler;
 import utils.Reporter;
 import utils.Screenshot;
+import utils.LoggerHandler;
 
 public class Testcase1 extends Base {
-    // Logger log;
+    Logger log= LoggerHandler.
     EventHandler e;
     ExtentReports reporter = Reporter.generateExtentReport();;
     ExtentSparkReporter sparkReporter;
