@@ -1,0 +1,14 @@
+utils/EventHandler.class
+Screenshot/.DS_Store
+resources/logback.xml
+testcases/Testcase1.class
+resources/browser.properties
+utils/Screenshot.class
+pages/Tricetis_Register.class
+resources/chromedriver
+utils/LoggerHandler.class
+testcases/Base.class
+resources/Testdata.xlsx
+pages/Tricentis_Login.class
+utils/Reporter.class
+.DS_Store
