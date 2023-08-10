@@ -1,5 +1,5 @@
 <configuration>
-    <property name="logPath" value="/home/coder/project/log" />
+    <property name="logPath" value="src/main/logs" />
     <timestamp key="currentDate" datePattern="yyyy-MM-dd_HH-mm-ss" />
 
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
