@@ -1,5 +1,5 @@
 #surefire
-#Thu Aug 10 05:37:13 UTC 2023
+#Thu Aug 10 05:42:26 UTC 2023
 classPathUrl.101=/home/coder/.m2/repository/org/apache/santuario/xmlsec/2.2.1/xmlsec-2.2.1.jar
 includes1=**/*Test.java
 classPathUrl.102=/home/coder/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.2.1/woodstox-core-5.2.1.jar
@@ -28,7 +28,7 @@ classPathUrl.58=/home/coder/.m2/repository/io/netty/netty-transport-native-unix-
 classPathUrl.104=/home/coder/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar
 classPathUrl.48=/home/coder/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.11.0/selenium-remote-driver-4.11.0.jar
 classPathUrl.49=/home/coder/.m2/repository/io/netty/netty-buffer/4.1.92.Final/netty-buffer-4.1.92.Final.jar
-runStatisticsFile=/home/coder/project/workspace/Project/.surefire-A50BD984817E09545F33BD19272D3F90DD2D395C
+runStatisticsFile=/home/coder/project/workspace/Project/.surefire-B4BFE9F9D5CD900197D7B8D10D845E837162089E
 classPathUrl.60=/home/coder/.m2/repository/io/netty/netty-resolver/4.1.92.Final/netty-resolver-4.1.92.Final.jar
 classPathUrl.61=/home/coder/.m2/repository/io/opentelemetry/opentelemetry-api/1.26.0/opentelemetry-api-1.26.0.jar
 classPathUrl.62=/home/coder/.m2/repository/io/opentelemetry/opentelemetry-context/1.26.0/opentelemetry-context-1.26.0.jar
@@ -93,7 +93,6 @@ classPathUrl.140=/home/coder/.m2/repository/org/apache/xmlgraphics/batik-ttf2svg
 classPathUrl.95=/home/coder/.m2/repository/org/apache/poi/poi-ooxml-lite/5.0.0/poi-ooxml-lite-5.0.0.jar
 testFwJarVersion=7.8.0
 classPathUrl.96=/home/coder/.m2/repository/org/apache/xmlbeans/xmlbeans/4.0.0/xmlbeans-4.0.0.jar
-mainCliOptions3=REACTOR_FAIL_FAST
 classPathUrl.97=/home/coder/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar
 classPathUrl.10=/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar
 classPathUrl.98=/home/coder/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar
@@ -104,10 +103,9 @@ mainCliOptions0=LOGGING_LEVEL_ERROR
 classPathUrl.12=/home/coder/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.2/docker-java-transport-httpclient5-3.3.2.jar
 classPathUrl.13=/home/coder/.m2/repository/com/github/docker-java/docker-java-transport/3.3.2/docker-java-transport-3.3.2.jar
 classPathUrl.147=/home/coder/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar
-mainCliOptions2=LOGGING_LEVEL_INFO
 classPathUrl.14=/home/coder/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar
 classPathUrl.148=/home/coder/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar
-mainCliOptions1=LOGGING_LEVEL_WARN
+mainCliOptions1=REACTOR_FAIL_FAST
 useManifestOnlyJar=true
 classPathUrl.134=/home/coder/.m2/repository/org/apache/xmlgraphics/batik-svggen/1.13/batik-svggen-1.13.jar
 classPathUrl.135=/home/coder/.m2/repository/org/apache/xmlgraphics/batik-svgpp/1.13/batik-svgpp-1.13.jar
@@ -130,7 +128,7 @@ classPathUrl.16=/home/coder/.m2/repository/org/apache/commons/commons-lang3/3.12
 classPathUrl.17=/home/coder/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar
 classPathUrl.18=/home/coder/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar
 classPathUrl.19=/home/coder/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar
-pluginPid=1417
+pluginPid=4393
 shutdown=DEFAULT
 classPathUrl.4=/home/coder/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar
 classPathUrl.123=/home/coder/.m2/repository/org/apache/xmlgraphics/batik-gvt/1.13/batik-gvt-1.13.jar
