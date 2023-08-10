@@ -4,7 +4,10 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.time.Duration;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import org.apache.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -29,7 +32,7 @@ import utils.Screenshot;
 import utils.LoggerHandler;
 
 public class Testcase1 extends Base {
-    Logger log= LoggerHandler.
+    org.slf4j.Logger log= LoggerHandler.log;
     EventHandler e;
     ExtentReports reporter = Reporter.generateExtentReport();;
     ExtentSparkReporter sparkReporter;
@@ -41,6 +44,7 @@ public class Testcase1 extends Base {
             e = new EventHandler();
             driver.get(prop.getProperty("url") + "/Register");
             // e.logger("Browser Navigated to the Register Page");
+            log.info("Browser Navigated to the Register Page");
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(IMPLICIT_WAIT_TIME));
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(PAGE_LOAD_TIME));
             Tricetis_Register register = PageFactory.initElements(driver, Tricetis_Register.class);
