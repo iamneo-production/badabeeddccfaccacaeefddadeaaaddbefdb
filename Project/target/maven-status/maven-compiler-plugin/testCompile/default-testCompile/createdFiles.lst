@@ -4,5 +4,6 @@ utils/Reporter.class
 testcases/Testcase1.class
 utils/Screenshot.class
 pages/Tricetis_Register.class
+utils/PropsLoader.class
 utils/LoggerHandler.class
 testcases/Base.class
